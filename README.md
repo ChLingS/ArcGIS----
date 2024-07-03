@@ -15,6 +15,8 @@ jiangxi_cities: list[str] = ["南昌市", "九江市", "上饶市", "抚州市",
 
 ###### 	2）若是在arcgis pro的环境下，需要下载geopandas，否则将”查看数据\查看矢量详情.py“内的geopandas相关给注释掉且不能使用查看矢量的功能。
 
+###### 	在main.py中引入了sv_ttk，如果不想引用可以注释掉 import以及  sv_ttk.set_theme("light")
+
 ###### 	3）引入的包：
 
 ```
