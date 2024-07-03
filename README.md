@@ -34,7 +34,7 @@ jiangxi_cities: list[str] = ["南昌市", "九江市", "上饶市", "抚州市",
 \ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\site-packages\pytz-2022.1-py3.9.egg
 \ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\site-packages\pywin32security
 \ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\site-packages\sympy-1.9-py3.9.egg
+```
 
-### 示例照片
-![alt text](image.png)
+![image](image.png)
 
