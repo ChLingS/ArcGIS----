@@ -180,7 +180,7 @@ class TranslateExcel(ExportToExcel):
                                        'zhen', 'zhen_code',
                                        'cun', 'cun_code',
                                        '面积（亩）',
-                                       '面积（ndvi）',
+                                    #    '面积（ndvi）',
                                        'LEVEL1', 'LEVEL2', 'LEVEL3', 'LEVEL4', 'LEVEL5'])
         # 读取每个县的每个村
         for index_excel, row_excel in pd.read_excel(self.to_trans_excel).iterrows():
@@ -213,7 +213,7 @@ class TranslateExcel(ExportToExcel):
                 'cun': row_excel['cun'],
                 'cun_code': row_excel['cun_code'],
                 '面积（亩）': framland_area_sum,
-                '面积（ndvi）': ndvi_arae_sum / 666.67,
+                # '面积（ndvi）': ndvi_arae_sum / 666.67,
                 'LEVEL1': round(level_area[0], 2),
                 'LEVEL2': round(level_area[1], 2),
                 'LEVEL3': round(level_area[2], 2),
