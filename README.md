@@ -1,5 +1,3 @@
-
-
 # 江西农业监测系统开发
 
 在**江西农业监测系统开发**项目进行的过程中，团队需要对大量矢量数据进行筛选、确认、处理以及外派确认数据存疑区域。特此作一个简易的程序提高团队效率。
@@ -38,4 +36,3 @@ jiangxi_cities: list[str] = ["南昌市", "九江市", "上饶市", "抚州市",
 <img src="image\image2.png" alt="image-20250212193110124" style="zoom: 25%;" />
 
 <video src="image\draft.mp4" style="zoom: 70%;"></video>
-
