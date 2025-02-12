@@ -1,10 +1,12 @@
-# 一个基于遥感数据确定田块内作物的ArcGIS二次开发软件
+
+
+# 江西农业监测系统开发
 
 在**江西农业监测系统开发**项目进行的过程中，团队需要对大量矢量数据进行筛选、确认、处理以及外派确认数据存疑区域。特此作一个简易的程序提高团队效率。
 
 ## 1.数据处理部分
 
-### 使用tkinter+arcpy，解放了生产力
+### 主要使用tkinter+arcpy
 
 #### 使用前提：
 
@@ -25,10 +27,15 @@ jiangxi_cities: list[str] = ["南昌市", "九江市", "上饶市", "抚州市",
 \ArcGIS\Pro\Resources\ArcPy
 ```
 
-![image](image.png)
+<img src="image/image.png" alt="image" style="zoom:50%;" />
 
 ## 2.外出作业检查数据部分
 
-### 使用flask框架进行后端搭建，展示田块数据为团队外业考察提供便利。
+### 主要使用flask框架进行后端搭建
 
 ###### 1）使用PostgreSQL数据库对江西省田块数据进行分片储存, geojson、shapely、pyproj、math等在数据输出时对地理数据进行投影转换。
+
+<img src="image\image2.png" alt="image-20250212193110124" style="zoom: 25%;" />
+
+<video src="image\draft.mp4" style="zoom: 70%;"></video>
+
