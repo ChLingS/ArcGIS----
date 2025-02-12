@@ -67,8 +67,8 @@ class MergeFiles(ttk.Frame):
         file_type = self.selected_value.get()
         if not os.path.exists(shp_path):
             messagebox.showerror("参数错误", "输入路径不存在")
-        elif not os.path.exists(out_path):
-            messagebox.showerror("参数错误", "输出路径不存在")
+        # elif not os.path.exists(out_path):
+        #     messagebox.showerror("参数错误", "输出路径不存在")
         else:
             try:
                 if file_type == "矢量":

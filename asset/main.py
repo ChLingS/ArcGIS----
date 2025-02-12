@@ -45,7 +45,7 @@ class App(ttk.Frame):
         # 创建一个菜单
         menubar = tkinter.Menu(parent)
         parent.config(menu=menubar)
-
+        menubar.add_separator()
         # 在菜单中添加两个命令，用来切换InputsAndButtonsDemo和MergeFiles的显示状态
         menubar.add_command(label="作物提取", command=self.show_inputs_and_buttons_demo)
         menubar.add_command(label="长势提取", command=self.show_crop_growth)

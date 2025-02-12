@@ -41,6 +41,10 @@ class ShowDetail(ttk.Frame):
         threading.Thread(target=self.work).start()  # 创建一个新的线程来执行工作
 
     def work(self):
-        table = ShowShapefile(self.input.get())
-        # threading.Thread(target=self.show_table, args=(table.get_shp_info(),)).start()
-        table.show()
+        try:
+            table = ShowShapefile(self.input.get())
+            self.progress_window.stop()
+            table.show()
+        except Exception as e:
+            print(e)
+        self.progress_window.stop()
